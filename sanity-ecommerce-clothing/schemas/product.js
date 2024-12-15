@@ -32,7 +32,8 @@ export default {
         {
             name: 'tags',
             title: 'Tags',
-            type: 'string',
+            type: 'array',
+            of: [{ type: 'string' }],
             options: {
                 list: [
                     {title: "Sweater", value: "Sweater"},
